@@ -3,13 +3,12 @@
 Some sample projects for the Pebble Smart Watch
 
 __Pebble Fortune Cookies__:
-* Retrieve a fortune text from http://tonycode.com/service/fortune-0.1/fortune.php
+* Retrieve a [fortune text](http://tonycode.com/service/fortune-0.1/fortune.php)
 * Display fortune cookie text from AJAX request on Pebble Watch Window
 
 __Pebble Chuck says...__:
-* Retrieve a Chuck Norris joke from http://api.icndb.com/jokes/random
-* Full service documentation on
-    * http://www.icndb.com/api/ - The Internet Chuck Norris Database
+* Retrieve a [Chuck Norris joke](http://api.icndb.com/jokes/random)
+* Full service documentation on [The Internet Chuck Norris Database](http://www.icndb.com/api/)
 * Display Chuck Norris joke text from AJAX request on Pebble Watch Window
 
 
