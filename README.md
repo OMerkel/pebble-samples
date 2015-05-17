@@ -1,6 +1,6 @@
 # pebble-js-samples
 
-Some sample projects for the Pebble Smart Watch
+Some sample projects for the Pebble Smart Watch using [pebble-js](https://github.com/pebble/pebblejs)
 
 __Pebble Fortune Cookies__:
 * Retrieve a [fortune text](http://tonycode.com/service/fortune-0.1/fortune.php)
