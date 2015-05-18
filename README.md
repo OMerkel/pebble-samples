@@ -26,8 +26,8 @@ See file named LICENSE being part of the repository.
 
 Copyright (c) 2015
 
-__@AUTHOR__ Predrag Janjetovic, preddi(at)arcor(dot)de.
-__@AUTHOR__ Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de.
+* __@AUTHOR__ Predrag Janjetovic, preddi(at)arcor(dot)de.
+* __@AUTHOR__ Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de.
 
 All rights reserved.
 
