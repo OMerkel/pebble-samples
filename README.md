@@ -20,7 +20,21 @@ __Pebble Chuck says...__:
 ![Show a fortune](pebble_chuck_says/res/screenshot_running_1.png)
 ![Another fortune](pebble_chuck_says/res/screenshot_running_2.png)
 
+# Legal
+
+See file named LICENSE being part of the repository.
+
+Copyright (c) 2015
+
+__@AUTHOR__ Predrag Janjetovic, preddi(at)arcor(dot)de.
+__@AUTHOR__ Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de.
+
+All rights reserved.
+
+Logos and trademarks belong to their respective owners.
+
 # Credits to
+
 * _Tony Primerano_ for the _Fortune service_ provided and
 * _The Internet Chuck Norris Database_ for their free offer of jokes and
 * _Robert Reid_ for the MIT licensed [encoder.js](http://www.strictly-software.com/htmlencode)
