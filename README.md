@@ -15,6 +15,9 @@ __Pebble Chuck says...__:
 * Full service documentation on [The Internet Chuck Norris Database](http://www.icndb.com/api/)
 * Display Chuck Norris joke text from AJAX request on Pebble Watch Window
 
+![Fortune menu icon](pebble_chuck_says/res/screenshot_menu_icon.png)
+![Show a fortune](pebble_chuck_says/res/screenshot_running_1.png)
+![Another fortune](pebble_chuck_says/res/screenshot_running_2.png)
 
 # Credits to
 * _Tony Primerano_ for the _Fortune service_ provided and
