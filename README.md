@@ -6,6 +6,10 @@ __Pebble Fortune Cookies__:
 * Retrieve a [fortune text](http://tonycode.com/service/fortune-0.1/fortune.php)
 * Display fortune cookie text from AJAX request on Pebble Watch Window
 
+![Fortune menu icon](pebble_fortune/res/screenshot_menu_icon.png)
+![Show a fortune](pebble_fortune/res/screenshot_running_1.png)
+![Another fortune](pebble_fortune/res/screenshot_running_2.png)
+
 __Pebble Chuck says...__:
 * Retrieve a [Chuck Norris joke](http://api.icndb.com/jokes/random)
 * Full service documentation on [The Internet Chuck Norris Database](http://www.icndb.com/api/)
