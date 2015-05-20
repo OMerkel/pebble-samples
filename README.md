@@ -34,7 +34,7 @@ _An indicator for the seconds is blinking on bottom of the watchface._
 _If holding the Pebble watch parallel over ground and turning it so the
 hour hand is pointing towards the sun then top of the watch face will
 always point in south direction and bottom of watch face in north
-direction on northern hemisphere._
+direction on northern hemisphere (Compass feature)._
 
 _Additionally the current moon phase is shown for
 northern hemisphere. Moon phase display is expected to work until end of
