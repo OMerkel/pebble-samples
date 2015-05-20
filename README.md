@@ -1,4 +1,4 @@
-<img src="pebble-js-samples.png" /> pebble-samples
+<img src="pebble-samples.png" /> pebble-samples
 =================
 
 Some sample projects for the Pebble Smart Watch using [pebble-js](https://github.com/pebble/pebblejs)
