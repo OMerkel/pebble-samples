@@ -1,0 +1,110 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "merkel.oliver@web.de",
+    "longName": "Decelerate Northern Hemisphere",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/moon_icon_28.png",
+                "menuIcon": true,
+                "name": "IMAGE_MOON_ICON_28",
+                "type": "png"
+            },
+            {
+                "file": "images/moon30.png",
+                "name": "IMAGE_MOON_30",
+                "type": "png"
+            },
+            {
+                "file": "images/moon28.png",
+                "name": "IMAGE_MOON_28",
+                "type": "png"
+            },
+            {
+                "file": "images/moon26.png",
+                "name": "IMAGE_MOON_26",
+                "type": "png"
+            },
+            {
+                "file": "images/moon24.png",
+                "name": "IMAGE_MOON_24",
+                "type": "png"
+            },
+            {
+                "file": "images/moon22.png",
+                "name": "IMAGE_MOON_22",
+                "type": "png"
+            },
+            {
+                "file": "images/moon20.png",
+                "name": "IMAGE_MOON_20",
+                "type": "png"
+            },
+            {
+                "file": "images/moon18.png",
+                "name": "IMAGE_MOON_18",
+                "type": "png"
+            },
+            {
+                "file": "images/moon16.png",
+                "name": "IMAGE_MOON_16",
+                "type": "png"
+            },
+            {
+                "file": "images/moon14.png",
+                "name": "IMAGE_MOON_14",
+                "type": "png"
+            },
+            {
+                "file": "images/moon12.png",
+                "name": "IMAGE_MOON_12",
+                "type": "png"
+            },
+            {
+                "file": "images/moon10.png",
+                "name": "IMAGE_MOON_10",
+                "type": "png"
+            },
+            {
+                "file": "images/moon8.png",
+                "name": "IMAGE_MOON_8",
+                "type": "png"
+            },
+            {
+                "file": "images/moon6.png",
+                "name": "IMAGE_MOON_6",
+                "type": "png"
+            },
+            {
+                "file": "images/moon4.png",
+                "name": "IMAGE_MOON_4",
+                "type": "png"
+            },
+            {
+                "file": "images/moon2.png",
+                "name": "IMAGE_MOON_2",
+                "type": "png"
+            },
+            {
+                "file": "images/moon0.png",
+                "name": "IMAGE_MOON_0",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Decelerate",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "756ae9ac-3bfc-4c09-a294-852e92f59e54",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
