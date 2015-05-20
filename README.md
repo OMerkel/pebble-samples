@@ -1,7 +1,7 @@
 <img src="pebble-samples.png" /> pebble-samples
 =================
 
-Some sample projects for the Pebble Smart Watch using [pebble-js](https://github.com/pebble/pebblejs)
+Some sample projects for the Pebble Smart Watch using [pebble-js](https://github.com/pebble/pebblejs) and [pebble sdk 3.0](https://developer.getpebble.com/sdk)
 
 __Pebble Fortune Cookies__:
 * Retrieve a [fortune text](http://tonycode.com/service/fortune-0.1/fortune.php)
