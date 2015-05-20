@@ -32,8 +32,9 @@ One rotation of the hour hand takes a whole day._
 _An indicator for the seconds is blinking on bottom of the watchface._
 
 _If holding the Pebble watch parallel over ground and turning it so the
-hour hand is pointing towards the sun then top of the watchface will
-always point in south direction on northern hemisphere._
+hour hand is pointing towards the sun then top of the watch face will
+always point in south direction and bottom of watch face in north
+direction on northern hemisphere._
 
 _Additionally the current moon phase is shown for
 northern hemisphere. Moon phase display is expected to work until end of
@@ -41,6 +42,8 @@ Unix Time (overflow on Jan 19th, 2038 03:14:07 GMT) at least as
 implemented here._
 
 ![Watchface](pebble_decelerate_northern_hemisphere/res/screenshot_watchface_1.png)
+![Compass feature](pebble_decelerate_northern_hemisphere/res/screenshot_compass_1.png)
+![Just before full moon](pebble_decelerate_northern_hemisphere/res/screenshot_watchface_2.png)
 
 # Legal
 
