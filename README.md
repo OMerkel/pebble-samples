@@ -3,7 +3,7 @@
 
 Some sample projects for the Pebble Smart Watch using [pebble-js](https://github.com/pebble/pebblejs) and [pebble sdk 3.0](https://developer.getpebble.com/sdk)
 
-__Pebble Fortune Cookies__:
+__Pebble Fortune Cookies__
 * Retrieve a [fortune text](http://tonycode.com/service/fortune-0.1/fortune.php)
 * Display fortune cookie text from AJAX request on Pebble Watch Window
 
@@ -11,7 +11,7 @@ __Pebble Fortune Cookies__:
 ![Show a fortune](pebble_fortune/res/screenshot_running_1.png)
 ![Another fortune](pebble_fortune/res/screenshot_running_2.png)
 
-__Pebble Chuck says...__:
+__Pebble Chuck says...__
 * Retrieve a [Chuck Norris joke](http://api.icndb.com/jokes/random)
 * Full service documentation on [The Internet Chuck Norris Database](http://www.icndb.com/api/)
 * Display Chuck Norris joke text from AJAX request on Pebble Watch Window
@@ -20,7 +20,7 @@ __Pebble Chuck says...__:
 ![Show a fortune](pebble_chuck_says/res/screenshot_running_1.png)
 ![Another fortune](pebble_chuck_says/res/screenshot_running_2.png)
 
-__Pebble Decelerate Northern Hemisphere__:
+__Pebble Decelerate Northern Hemisphere__
 * Decelerate your day with a less stressful time display
 * Exact time is shown by analog hour hand only.
 * Additional feature is the display of the current moon phase
