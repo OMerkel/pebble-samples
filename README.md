@@ -20,6 +20,12 @@ __Pebble Chuck says...__
 ![Show a fortune](pebble_chuck_says/res/screenshot_running_1.png)
 ![Another fortune](pebble_chuck_says/res/screenshot_running_2.png)
 
+Please mind: _All material retrieved by
+[The Internet Chuck Norris Database](http://www.icndb.com/api/)
+is intended for humorous entertainment purposes only. Any
+related content should not be regarded as truth and is not
+necessarily true._
+
 __Pebble Decelerate Northern Hemisphere__
 * Decelerate your day with a less stressful time display
 * Exact time is shown by analog hour hand only.
@@ -56,7 +62,7 @@ Copyright (c) 2015
 
 All rights reserved.
 
-Logos and trademarks belong to their respective owners.
+Brands, logos and trademarks belong to their respective owners.
 
 # Credits to
 
