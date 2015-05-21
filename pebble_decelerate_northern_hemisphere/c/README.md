@@ -45,7 +45,7 @@ Brands, logos and trademarks belong to their respective owners.
 
 * [NASA (National Aeronautics and Space Administration)](http://www.nasa.gov) for the _public domain images_ provided
     * [NASA Freedom of Information Act (FOIA)](http://www.nasa.gov/FOIA/index.html)
-    * [Images](http://moon.nasa.gov/images.cfm) and [data](http://www.nasa.gov/moon) about the earth's moon
+    * [Images](http://moon.nasa.gov/images.cfm) and [data](http://www.nasa.gov/moon) about the Earth's Moon
     * [Galileo spacecraft returned images of the Moon](http://photojournal.jpl.nasa.gov/catalog/PIA00405)
     * [JPL Image Use Policy](http://www.jpl.nasa.gov/imagepolicy)
 
