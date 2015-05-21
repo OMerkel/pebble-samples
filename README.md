@@ -68,7 +68,7 @@ Brands, logos and trademarks belong to their respective owners.
 
 * _Tony Primerano_ for the _Fortune service_ provided and
 * _The Internet Chuck Norris Database_ for their free offer of jokes and
-* _Robert Reid_ for the MIT licensed [encoder.js](http://www.strictly-software.com/htmlencode)
+* _Robert Reid_ for the MIT licensed [encoder.js](http://www.strictly-software.com/htmlencode) and
 * _Katharine Berry_ for [cloudpebble](https://cloudpebble.net/)
 
 Thank you!
