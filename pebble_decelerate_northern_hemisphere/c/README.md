@@ -40,3 +40,11 @@ Copyright (c) 2015
 All rights reserved.
 
 Brands, logos and trademarks belong to their respective owners.
+
+# Credits to
+
+* [NASA (National Aeronautics and Space Administration)](http://www.nasa.gov) for the _public domain images_ provided
+    * [NASA Freedom of Information Act (FOIA)](http://www.nasa.gov/FOIA/index.html)
+    * [Images](http://moon.nasa.gov/images.cfm) and [data](http://www.nasa.gov/moon) about the earth's moon
+
+Thank you!
