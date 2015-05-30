@@ -20,6 +20,28 @@ __Pebble Chuck says...__:
 ![Show a fortune](pebble_chuck_says/res/screenshot_running_1.png)
 ![Another fortune](pebble_chuck_says/res/screenshot_running_2.png)
 
+__Pebble Decelerate Northern Hemisphere__:
+* Decelerate your day with a less stressful time display
+* Exact time is shown by analog hour hand only.
+* Additional feature is the display of the current moon phase
+
+_The Decelerate Northern Hemisphere watchface shows a single hour hand only.
+Midnight is on bottom of the clockface while Noon is indicated on top.
+One rotation of the hour hand takes a whole day._
+
+_An indicator for the seconds is blinking on bottom of the watchface._
+
+_If holding the Pebble watch parallel over ground and turning it so the
+hour hand is pointing towards the sun then top of the watchface will
+always point in south direction on northern hemisphere._
+
+_Additionally the current moon phase is shown for
+northern hemisphere. Moon phase display is expected to work until end of
+Unix Time (overflow on Jan 19th, 2038 03:14:07 GMT) at least as
+implemented here._
+
+![Watchface](pebble_decelerate_northern_hemisphere/res/screenshot_watchface_1.png)
+
 # Legal
 
 See file named LICENSE being part of the repository.
