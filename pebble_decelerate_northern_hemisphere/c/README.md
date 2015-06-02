@@ -28,7 +28,7 @@ always point in south direction and bottom of watch face in north
 direction on northern hemisphere (Compass feature).
 
 Mind the observer's position: _The compass feature is
-basically depending on the users (or better the observers)
+basically depending on the user's (or better the observer's)
 position on Earth - respectively the latitude of
 the observing position. At higher latitudes the compass feature
 is easier to use and more fail safe. Assumed both the Earth's
