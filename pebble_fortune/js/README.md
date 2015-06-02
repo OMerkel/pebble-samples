@@ -8,9 +8,9 @@ A sample projects for the Pebble Smart Watch using [pebble-js](https://github.co
 * Retrieve a [fortune text](http://tonycode.com/service/fortune-0.1/fortune.php)
 * Display fortune cookie text from AJAX request on Pebble Watch Window
 
-![Fortune menu icon](pebble_fortune/res/screenshot_menu_icon.png)
-![Show a fortune](pebble_fortune/res/screenshot_running_1.png)
-![Another fortune](pebble_fortune/res/screenshot_running_2.png)
+![Fortune menu icon](../res/screenshot_menu_icon.png)
+![Show a fortune](../res/screenshot_running_1.png)
+![Another fortune](../res/screenshot_running_2.png)
 
 # Legal
 
