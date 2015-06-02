@@ -27,7 +27,7 @@ hour hand is pointing towards the sun then top of the watch face will
 always point in south direction and bottom of watch face in north
 direction on northern hemisphere (Compass feature).
 
-Mind the observers position: _The compass feature is
+Mind the observer's position: _The compass feature is
 basically depending on the users (or better the observers)
 position on Earth - respectively the latitude of
 the observing position. At higher latitudes the compass feature
