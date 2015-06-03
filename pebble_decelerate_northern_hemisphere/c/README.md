@@ -31,15 +31,19 @@ Mind the observer's position: _The compass feature is
 basically depending on the user's (or better the observer's)
 position on Earth - respectively the latitude of
 the observing position. At higher latitudes the compass feature
-is easier to use and more fail safe. Assumed both the Earth's
-orbital plane around the sun and the Earth's equatorial plane
-would match each other (so the angle is assumed to be 0 degrees
-instead of approximately 23.5 degrees) this would mean that
-an observer standing at any position of the equator
-will not have a preferred view during noon to point the hour hand
-towards the sun holding the watch parallel over ground. Meaning the
-compass feature is not working at observer positions with smaller
-latitudes._
+is easier to use and more fail safe. The Earth's
+orbital plane around the sun projected onto the celestial sphere
+is called the ecliptic. The Earth's equatorial plane projected
+onto the celestial sphere is called the celestial equator.
+The ecliptic and the celestial equator are oblique by an angle
+of approximately 23.5 degrees currently. This means that
+an observer standing at any position close to the Earth's equator
+will lack a preferred view during noon (close to standing directly
+perpendicular under the sun called the sun is in observer's zenith)
+to point the hour hand towards the sun holding the watch parallel
+over ground. Meaning the compass feature is either not working
+at observer positions with smaller latitudes or the compass
+feature is at least hard to apply._
 
 Mind the difference of southern hemisphere and northern hemisphere:
 _On southern hemisphere top of the watch face will indicate north
@@ -56,9 +60,9 @@ vertically on the watch face only._
 Mind that observer will have a preferred viewing direction:
 _The Moon's view on the sky might vary from upright vertical
 orientation being rotated by an amount depending on latitude
-and the current position of the sun. Restricted to observer's
-location and latitude it shows itself close to upside down
-between both hemispheres in direct comparison. The
+and the current position of the sun. Regarding the observer's
+location/latitude it shows itself close to
+upside down between both hemispheres in direct comparison. The
 inclination of the Moon's orbital plane towards the
 plane of the Earth's equator has an
 angle of approximately 5 degrees. For
