@@ -42,14 +42,31 @@ hour hand is pointing towards the sun then top of the watch face will
 always point in south direction and bottom of watch face in north
 direction on northern hemisphere (Compass feature)._
 
-_Additionally the current moon phase is shown for
-northern hemisphere. Moon phase display is expected to work until end of
-Unix Time (overflow on Jan 19th, 2038 03:14:07 GMT) at least as
-implemented here._
+_Additionally the current Moon phase is shown with more convenience for
+observers of northern hemisphere. Moon phase display is expected to 
+work until end of Unix Time (overflow on Jan 19th, 2038 03:14:07 GMT)
+at least as implemented here._
 
 ![Watchface](pebble_decelerate_northern_hemisphere/res/screenshot_watchface_1.png)
 ![Compass feature](pebble_decelerate_northern_hemisphere/res/screenshot_compass_1.png)
 ![Just before full moon](pebble_decelerate_northern_hemisphere/res/screenshot_watchface_2.png)
+
+__Pebble Decelerate Northern Hemisphere__
+* A version of the Pebble Decelerate watch face with more convenience for observers of the Moon from southern hemisphere.
+
+_If holding the Pebble watch parallel over ground and turning it so the
+hour hand is pointing towards the sun then top of the watch face will
+always point in north direction and bottom of watch face in south
+direction on southern hemisphere (Compass feature)._
+
+_Here the current Moon phase is shown with more convenience for
+observers of southern hemisphere. Moon phase display is expected to 
+work until end of Unix Time (overflow on Jan 19th, 2038 03:14:07 GMT)
+at least as implemented here._
+
+![Watchface](pebble_decelerate_southern_hemisphere/res/screenshot_watchface_1.png)
+![Compass feature](pebble_decelerate_southern_hemisphere/res/screenshot_compass_1.png)
+![Just before full moon](pebble_decelerate_southern_hemisphere/res/screenshot_watchface_2.png)
 
 # Legal
 
