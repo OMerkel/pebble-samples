@@ -4,7 +4,7 @@
         ""
     ],
     "companyName": "merkel.oliver@web.de",
-    "longName": "Decelerate Northern Hemisphere",
+    "longName": "Decelerate Southern Hemisphere",
     "projectType": "native",
     "resources": {
         "media": [
@@ -97,12 +97,12 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "Decelerate N",
+    "shortName": "Decelerate S",
     "targetPlatforms": [
         "aplite",
         "basalt"
     ],
-    "uuid": "756ae9ac-3bfc-4c09-a294-852e92f59e54",
+    "uuid": "145e20f3-7d46-4a21-944d-4c6702d89ef8",
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": true

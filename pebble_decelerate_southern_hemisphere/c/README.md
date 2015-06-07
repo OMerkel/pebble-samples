@@ -1,4 +1,4 @@
-Pebble Decelerate Northern Hemisphere
+Pebble Decelerate Southern Hemisphere
 =====================================
 
 ![Marketing Banner](../res/decelerate720x320.png)
@@ -24,8 +24,8 @@ _An indicator for the seconds is blinking on bottom of the watchface._
 
 If holding the Pebble watch parallel over ground and turning it so the
 hour hand is pointing towards the sun then top of the watch face will
-always point in south direction and bottom of watch face in north
-direction <b>on northern hemisphere</b> (Compass feature).
+always point in north direction and bottom of watch face in south
+direction <b>on southern hemisphere</b> (Compass feature).
 
 Mind the observer's orientation and location: _The compass feature is
 basically depending on the user's (or better the observer's)
@@ -46,13 +46,13 @@ at observer positions with smaller latitudes or the compass
 feature is at least hard to apply._
 
 Mind the difference of southern hemisphere and northern hemisphere:
-_On southern hemisphere top of the watch face will indicate north
-direction while bottom of watch face is oriented south._ 
+_On northern hemisphere top of the watch face will indicate south
+direction while bottom of watch face is oriented north._ 
 
 # Moon Phase Display
 
 _Additionally the current Moon phase is shown for
-northern hemisphere. Moon phase display is expected to work until end of
+southern hemisphere. Moon phase display is expected to work until end of
 Unix Time (overflow on Jan 19th, 2038 03:14:07 GMT) at least as
 implemented here. For simplicity the axis of the Moon is shown
 vertically on the watch face only._
