@@ -29,7 +29,7 @@ necessarily true._
 __Pebble Decelerate Northern Hemisphere__
 * Decelerate your day with a less stressful time display
 * Exact time is shown by analog hour hand only.
-* Additional feature is the display of the current moon phase
+* Additional feature is the display of the current Moon phase
 
 _The Decelerate Northern Hemisphere watchface shows a single hour hand only.
 Midnight is on bottom of the clockface while Noon is indicated on top.
@@ -51,7 +51,7 @@ at least as implemented here._
 ![Compass feature](pebble_decelerate_northern_hemisphere/res/screenshot_compass_1.png)
 ![Just before full moon](pebble_decelerate_northern_hemisphere/res/screenshot_watchface_2.png)
 
-__Pebble Decelerate Northern Hemisphere__
+__Pebble Decelerate Southern Hemisphere__
 * A version of the Pebble Decelerate watch face with more convenience for observers of the Moon from southern hemisphere.
 
 _If holding the Pebble watch parallel over ground and turning it so the
