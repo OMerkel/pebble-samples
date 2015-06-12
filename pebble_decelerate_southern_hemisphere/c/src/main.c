@@ -1,14 +1,14 @@
 /**
- * Pebble Watchface: Decelerate Northern Hemisphere
+ * Pebble Watchface: Decelerate Southern Hemisphere
  *
- * The Decelerate Northern Hemisphere watchface shows a single hour hand only.
+ * The Decelerate Southern Hemisphere watchface shows a single hour hand only.
  * Midnight is on bottom of the clockface while Noon is indicated on top.
  * One rotation of the hour hand takes a whole day. An indicator for the
  * seconds is blinking on bottom of the watchface. If holding the Pebble watch
  * parallel over ground and turning it so the hour hand is pointing towards
- * the sun then top of the watchface will always point in south direction on
- * northern hemisphere. Additionally the current moon phase is shown for
- * northern hemisphere. Moon phase display is expected to work until end of
+ * the sun then top of the watchface will always point in north direction on
+ * southern hemisphere. Additionally the current moon phase is shown for
+ * southern hemisphere. Moon phase display is expected to work until end of
  * Unix Time (overflow on Jan 19th, 2038 03:14:07 GMT) at least as
  * implemented here.
  *

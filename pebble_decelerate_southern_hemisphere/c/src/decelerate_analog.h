@@ -1,7 +1,7 @@
 /**
- * Pebble Watchface: Decelerate Northern Hemisphere
+ * Pebble Watchface: Decelerate Southern Hemisphere
  *
- * Header declaration for Decelerate Northern Hemisphere watchface
+ * Header declaration for Decelerate Southern Hemisphere watchface
  *
  * Copyright (c), 2015
  *
