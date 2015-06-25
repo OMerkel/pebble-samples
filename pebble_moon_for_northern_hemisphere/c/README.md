@@ -103,6 +103,6 @@ Brands, logos and trademarks belong to their respective owners.
     * [Images](http://moon.nasa.gov/images.cfm) and [data](http://www.nasa.gov/moon) about the Earth's Moon
     * [Galileo spacecraft returned images of the Moon](http://photojournal.jpl.nasa.gov/catalog/PIA00405)
     * [JPL Image Use Policy](http://www.jpl.nasa.gov/imagepolicy)
-* Christian Robertson for the Roboto Condensed font licensed under Apache License, version 2.0
+* _Christian Robertson_ for the Roboto Condensed font licensed under Apache License, version 2.0
 
 Thank you!
