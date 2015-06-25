@@ -26,6 +26,26 @@ is intended for humorous entertainment purposes only. Any
 related content should not be regarded as truth and is not
 necessarily true._
 
+__Pebble Moon for Northern Hemisphere__
+* Moon for Northern Hemisphere is a watchface derived from [Decelerate Northern Hemisphere](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_northern_hemisphere/c) watchface
+* Main display is showing the current Moon Phase nearly in full screen
+* Decelerate your day with a less stressful time display
+* Exact time is shown by analog hour hand represented by a small triangle only
+* On Accelerometer Event more time information like Calendar Week, Weekday, Day, Month, Year is shown
+
+_The watchface shows a single hour hand only. The hour hand is represented by a triangle.
+Midnight is on bottom of the watchface while Noon is indicated on top.
+One rotation of the hour hand takes a whole day._
+
+_On Accelerometer Event of the watch more detailed time information is
+displayed for a specific while. On timeout the display toggles back to normal view._
+
+![Watchface Normal on Basalt SDK](pebble_moon_for_northern_hemisphere/res/screenshot_watchface_basalt.png)
+![Watchface Detail](pebble_moon_for_northern_hemisphere/res/screenshot_watchface_detail.png)
+![Watchface Normal on Aplite SDK](pebble_moon_for_northern_hemisphere/res/screenshot_watchface_aplite.png)
+
+[More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_moon_for_northern_hemisphere/c)
+
 __Pebble Decelerate Northern Hemisphere__
 * Decelerate your day with a less stressful time display
 * Exact time is shown by analog hour hand only.
@@ -51,6 +71,8 @@ at least as implemented here._
 ![Compass feature](pebble_decelerate_northern_hemisphere/res/screenshot_compass_1.png)
 ![Just before full moon](pebble_decelerate_northern_hemisphere/res/screenshot_watchface_2.png)
 
+[More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_northern_hemisphere/c)
+
 __Pebble Decelerate Southern Hemisphere__
 * A version of the Pebble Decelerate watch face with more convenience for observers of the Moon from southern hemisphere.
 
@@ -67,6 +89,8 @@ at least as implemented here._
 ![Watchface](pebble_decelerate_southern_hemisphere/res/screenshot_watchface_1.png)
 ![Compass feature](pebble_decelerate_southern_hemisphere/res/screenshot_compass_1.png)
 ![Just before full moon](pebble_decelerate_southern_hemisphere/res/screenshot_watchface_2.png)
+
+[More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_southern_hemisphere/c)
 
 # Legal
 
@@ -87,5 +111,6 @@ Brands, logos and trademarks belong to their respective owners.
 * _The Internet Chuck Norris Database_ for their free offer of jokes and
 * _Robert Reid_ for the MIT licensed [encoder.js](http://www.strictly-software.com/htmlencode) and
 * _Katharine Berry_ for [cloudpebble](https://cloudpebble.net/)
+* _Christian Robertson_ for the Roboto Condensed font licensed under Apache License, version 2.0
 
 Thank you!
