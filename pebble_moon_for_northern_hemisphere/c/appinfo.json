@@ -1,0 +1,115 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "merkel.oliver@web.de",
+    "longName": "Moon for Northern Hemisphere",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/moon_28_2-8.png",
+                "menuIcon": true,
+                "name": "image_moon_icon",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-15.png",
+                "name": "IMAGE_MOON_15",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-14.png",
+                "name": "IMAGE_MOON_14",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-13.png",
+                "name": "IMAGE_MOON_13",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-12.png",
+                "name": "IMAGE_MOON_12",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-11.png",
+                "name": "IMAGE_MOON_11",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-10.png",
+                "name": "IMAGE_MOON_10",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-9.png",
+                "name": "IMAGE_MOON_9",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-8.png",
+                "name": "IMAGE_MOON_8",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-7.png",
+                "name": "IMAGE_MOON_7",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-6.png",
+                "name": "IMAGE_MOON_6",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-5.png",
+                "name": "IMAGE_MOON_5",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-4.png",
+                "name": "IMAGE_MOON_4",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-3.png",
+                "name": "IMAGE_MOON_3",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-2.png",
+                "name": "IMAGE_MOON_2",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-1.png",
+                "name": "IMAGE_MOON_1",
+                "type": "png"
+            },
+            {
+                "file": "images/moon_120_2-0.png",
+                "name": "IMAGE_MOON_0",
+                "type": "png"
+            },
+            {
+                "file": "fonts/RobotoCondensed-Regular.ttf",
+                "name": "FONT_ROBOTO_14",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Moon4NH",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "7615efae-aef6-4958-97fa-524e97f232b9",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
