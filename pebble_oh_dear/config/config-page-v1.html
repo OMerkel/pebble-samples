@@ -60,10 +60,18 @@ If not otherwise stated all game graphics (independent of its format) are licens
 
       <div data-role="content">
         <div data-role="fieldcontain">
-          <label for="enable_second_hand">Show the second hand</label>
+          <label for="enable_second_hand">Show the second-hand</label>
           <select name="enable_second_hand" id="enable_second_hand" data-role="slider">
             <option value="off">Off</option>
             <option value="on" selected="selected">On</option>
+          </select>
+        </div> <!-- /fieldcontain -->
+
+        <div data-role="fieldcontain">
+          <label for="behavior_minute_hand">Minute-hand behavior</label>
+          <select name="behavior_minute_hand" id="behavior_minute_hand" data-role="slider">
+            <option value="sweep">Sweep</option>
+            <option value="tick" selected="selected">Tick</option>
           </select>
         </div> <!-- /fieldcontain -->
 
