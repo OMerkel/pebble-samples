@@ -1,0 +1,43 @@
+{
+    "appKeys": {
+        "KEY_ENABLE_SECOND_HAND": 0,
+        "KEY_SWEEP_MINUTE_HAND": 1
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "merkel.oliver@web.de",
+    "longName": "Oh dear! I shall be too late!",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/lewis_carroll_28-2.png",
+                "menuIcon": true,
+                "name": "IMAGE_ICON_LEWIS_CAROLL",
+                "type": "png"
+            },
+            {
+                "file": "images/oh_dear_3-2.png",
+                "name": "IMAGE_WHITE_RABBIT",
+                "type": "png"
+            },
+            {
+                "file": "fonts/RobotoCondensed-Regular.ttf",
+                "name": "FONT_ROBOTO_14",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Oh dear!",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "e933c555-320e-42a9-813c-aefdb8d38c92",
+    "versionLabel": "1.1",
+    "watchapp": {
+        "watchface": true
+    }
+}
