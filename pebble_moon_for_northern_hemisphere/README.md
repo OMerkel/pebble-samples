@@ -1,12 +1,12 @@
 Pebble Moon for Northern Hemisphere
 ===================================
 
-![Marketing Banner](../res/moon720x320.png)
+![Marketing Banner](res/moon720x320.png)
 
 A sample project for the Pebble Smart Watch
 using [pebble sdk 3.0](https://developer.getpebble.com/sdk)
 
-* Moon for Northern Hemisphere is a watchface derived from [Decelerate Northern Hemisphere](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_northern_hemisphere/c) watchface
+* Moon for Northern Hemisphere is a watchface derived from [Decelerate Northern Hemisphere](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_northern_hemisphere) watchface
 * Main display is showing the current Moon Phase nearly in full screen
 * Decelerate your day with a less stressful time display
 * Exact time is shown by analog hour hand represented by a small triangle only
@@ -19,9 +19,9 @@ One rotation of the hour hand takes a whole day._
 _On Accelerometer Event of the watch more detailed time information is
 displayed for a specific while. On timeout the display toggles back to normal view._
 
-![Watchface Normal on Basalt SDK](../res/screenshot_watchface_basalt.png)
-![Watchface Detail](../res/screenshot_watchface_detail.png)
-![Watchface Normal on Aplite SDK](../res/screenshot_watchface_aplite.png)
+![Watchface Normal on Basalt SDK](res/screenshot_watchface_basalt.png)
+![Watchface Detail](res/screenshot_watchface_detail.png)
+![Watchface Normal on Aplite SDK](res/screenshot_watchface_aplite.png)
 
 # Compass Feature
 

@@ -1,7 +1,7 @@
 Pebble Decelerate Northern Hemisphere
 =====================================
 
-![Marketing Banner](../res/decelerate720x320.png)
+![Marketing Banner](res/decelerate720x320.png)
 
 A sample project for the Pebble Smart Watch
 using [pebble sdk 3.0](https://developer.getpebble.com/sdk)
@@ -16,9 +16,9 @@ One rotation of the hour hand takes a whole day._
 
 _An indicator for the seconds is blinking on bottom of the watchface._
 
-![Watchface](../res/screenshot_watchface_1.png)
-![Compass feature](../res/screenshot_compass_1.png)
-![Just before full Moon](../res/screenshot_watchface_2.png)
+![Watchface](res/screenshot_watchface_1.png)
+![Compass feature](res/screenshot_compass_1.png)
+![Just before full Moon](res/screenshot_watchface_2.png)
 
 # Compass Feature
 
