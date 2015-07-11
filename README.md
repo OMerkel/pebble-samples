@@ -3,31 +3,14 @@
 
 Some sample projects for the Pebble Smart Watch using [pebble-js](https://github.com/pebble/pebblejs) and [pebble sdk 3.0](https://developer.getpebble.com/sdk)
 
-__Pebble Fortune Cookies__
-* Retrieve a [fortune text](http://tonycode.com/service/fortune-0.1/fortune.php)
-* Display fortune cookie text from AJAX request on Pebble Watch Window
+# Pebble Watch Faces
 
-![Fortune menu icon](pebble_fortune/res/screenshot_menu_icon.png)
-![Show a fortune](pebble_fortune/res/screenshot_running_1.png)
-![Another fortune](pebble_fortune/res/screenshot_running_2.png)
+__Pebble Oh Dear! Oh Dear! I shall be too late!__
 
-__Pebble Chuck says...__
-* Retrieve a [Chuck Norris joke](http://api.icndb.com/jokes/random)
-* Full service documentation on [The Internet Chuck Norris Database](http://www.icndb.com/api/)
-* Display Chuck Norris joke text from AJAX request on Pebble Watch Window
-
-![Fortune menu icon](pebble_chuck_says/res/screenshot_menu_icon.png)
-![Show a fortune](pebble_chuck_says/res/screenshot_running_1.png)
-![Another fortune](pebble_chuck_says/res/screenshot_running_2.png)
-
-Please mind: _All material retrieved by
-[The Internet Chuck Norris Database](http://www.icndb.com/api/)
-is intended for humorous entertainment purposes only. Any
-related content should not be regarded as truth and is not
-necessarily true._
+[More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_oh_dear)
 
 __Pebble Moon for Northern Hemisphere__
-* Moon for Northern Hemisphere is a watchface derived from [Decelerate Northern Hemisphere](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_northern_hemisphere/c) watchface
+* Moon for Northern Hemisphere is a watchface derived from [Decelerate Northern Hemisphere](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_northern_hemisphere) watchface
 * Main display is showing the current Moon Phase nearly in full screen
 * Decelerate your day with a less stressful time display
 * Exact time is shown by analog hour hand represented by a small triangle only
@@ -44,7 +27,7 @@ displayed for a specific while. On timeout the display toggles back to normal vi
 ![Watchface Detail](pebble_moon_for_northern_hemisphere/res/screenshot_watchface_detail.png)
 ![Watchface Normal on Aplite SDK](pebble_moon_for_northern_hemisphere/res/screenshot_watchface_aplite.png)
 
-[More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_moon_for_northern_hemisphere/c)
+[More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_moon_for_northern_hemisphere)
 
 __Pebble Decelerate Northern Hemisphere__
 * Decelerate your day with a less stressful time display
@@ -71,7 +54,7 @@ at least as implemented here._
 ![Compass feature](pebble_decelerate_northern_hemisphere/res/screenshot_compass_1.png)
 ![Just before full moon](pebble_decelerate_northern_hemisphere/res/screenshot_watchface_2.png)
 
-[More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_northern_hemisphere/c)
+[More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_northern_hemisphere)
 
 __Pebble Decelerate Southern Hemisphere__
 * A version of the Pebble Decelerate watch face with more convenience for observers of the Moon from southern hemisphere.
@@ -90,7 +73,34 @@ at least as implemented here._
 ![Compass feature](pebble_decelerate_southern_hemisphere/res/screenshot_compass_1.png)
 ![Just before full moon](pebble_decelerate_southern_hemisphere/res/screenshot_watchface_2.png)
 
-[More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_southern_hemisphere/c)
+[More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_southern_hemisphere)
+
+# Pebble Watch Apps
+* Pebble Fortune Cookies
+* Pebble Chuck says...
+
+__Pebble Fortune Cookies__
+* Retrieve a [fortune text](http://tonycode.com/service/fortune-0.1/fortune.php)
+* Display fortune cookie text from AJAX request on Pebble Watch Window
+
+![Fortune menu icon](pebble_fortune/res/screenshot_menu_icon.png)
+![Show a fortune](pebble_fortune/res/screenshot_running_1.png)
+![Another fortune](pebble_fortune/res/screenshot_running_2.png)
+
+__Pebble Chuck says...__
+* Retrieve a [Chuck Norris joke](http://api.icndb.com/jokes/random)
+* Full service documentation on [The Internet Chuck Norris Database](http://www.icndb.com/api/)
+* Display Chuck Norris joke text from AJAX request on Pebble Watch Window
+
+![Fortune menu icon](pebble_chuck_says/res/screenshot_menu_icon.png)
+![Show a fortune](pebble_chuck_says/res/screenshot_running_1.png)
+![Another fortune](pebble_chuck_says/res/screenshot_running_2.png)
+
+Please mind: _All material retrieved by
+[The Internet Chuck Norris Database](http://www.icndb.com/api/)
+is intended for humorous entertainment purposes only. Any
+related content should not be regarded as truth and is not
+necessarily true._
 
 # Legal
 
