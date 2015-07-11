@@ -127,7 +127,7 @@ static void update_proc(Layer *layer, GContext *ctx) {
       t->tm_mon = 2;
       mktime(t);
       */
-    
+
       timebuf[sizeof(timebuf) - 1] = '\0';
       strftime(timebuf, sizeof(timebuf) - 1, "CW%W, %a,%b %e,%Y", t);
       if ('9' == timebuf[3]) {
@@ -188,7 +188,7 @@ static void window_unload(Window *window) {
   bitmap_layer_destroy(s_moon_layer);
   gpath_destroy(s_hour_arrow);
   gpath_destroy(s_hour_tick);
-  
+
   if (bm_moon) {
     gbitmap_destroy(bm_moon);
   }
