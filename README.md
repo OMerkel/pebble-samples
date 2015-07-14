@@ -7,6 +7,8 @@ Some sample projects for the Pebble Smart Watch using [pebble-js](https://github
 
 __Pebble Oh Dear! Oh Dear! I shall be too late!__
 
+![Watchface on Basalt SDK](pebble_oh_dear/res/oh_dear_watch_screenshot_1.png)
+
 [More...](https://github.com/OMerkel/pebble-samples/tree/master/pebble_oh_dear)
 
 __Pebble Moon for Northern Hemisphere__
