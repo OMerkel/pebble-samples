@@ -3,7 +3,7 @@
 * File: [oh_dear_1_1.pbw](oh_dear_1_1.pbw)
 * Configuration option allows to show or hide the second hand of the watch face.
 * Configuration option for sweeping or ticking minute hand.
-* Ticking minute hand with no second hand display will influence tick timer service subscription to reduce battery consumption
+* Ticking minute hand with no second hand display will influence tick timer service subscription to reduce battery consumption.
 
 # Version 1.0
 
