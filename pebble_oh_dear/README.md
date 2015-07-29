@@ -25,17 +25,32 @@ Trust this watch face and you will most likely be 5 minutes too late!
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND...
 even if you are too late. Have fun...
 
-The White Rabbit being part of the background image is work from
-[John Tenniel](https://en.wikipedia.org/wiki/John_Tenniel).
-John Tenniel illustrated early editions of
-[Lewis Carroll](https://en.wikipedia.org/wiki/Lewis_Carroll)'s "Alice
+# Legal
+
+* The White Rabbit being part of the background image is work from [John Tenniel](https://en.wikipedia.org/wiki/John_Tenniel).
+* John Tenniel illustrated early editions of [Lewis Carroll](https://en.wikipedia.org/wiki/Lewis_Carroll)'s "Alice
 in Wonderland" back in 19th century.
 
 Mind that works of John Tenniel and Lewis Carroll are in the public domain yet!
 All other portions of this Pebble watchface are MIT licensed.
 
-Links
------
+See file named LICENSE being part of the repository.
+
+Copyright (c) 2015
+
+* __@AUTHOR__ Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de.
+
+All rights reserved.
+
+Brands, logos and trademarks belong to their respective owners.
+
+# Links
 
 * [Sir John Tenniel](https://en.wikipedia.org/wiki/John_Tenniel), English illustrator,  *1820 - &#8224;1914
 * [Lewis Carroll](https://en.wikipedia.org/wiki/Lewis_Carroll), English writer, *1832 - &#8224;1898
+
+# Credits to
+
+* _Christian Robertson_ for the Roboto Condensed font licensed under Apache License, version 2.0
+
+Thank you!
