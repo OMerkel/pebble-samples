@@ -1,6 +1,8 @@
 Pebble Watchface: Oh dear! Oh dear! I shall be too late!
 ========================================================
 
+![Watchface on Basalt SDK](pebble_oh_dear/res/oh_dear_watch_screenshot_1.png)
+
 <blockquote><p><b>DOWN THE RABBIT-HOLE.</b>
 </p><p>
 ... when suddenly a white rabbit with pink eyes ran close by her.
