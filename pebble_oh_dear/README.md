@@ -44,10 +44,16 @@ All rights reserved.
 
 Brands, logos and trademarks belong to their respective owners.
 
-# Links
+# Links / References
 
 * [Sir John Tenniel](https://en.wikipedia.org/wiki/John_Tenniel), English illustrator,  *1820 - &#8224;1914
 * [Lewis Carroll](https://en.wikipedia.org/wiki/Lewis_Carroll), English writer, *1832 - &#8224;1898
+* _Alice's Adventures under Ground_ by Lewis Carroll, Project Gutenberg, http://www.gutenberg.org/ebooks/19002
+* _Alice's Adventures in Wonderland_ by Lewis Carroll, Project Gutenberg, http://www.gutenberg.org/ebooks/11
+* _Alice's Adventures in Wonderland_ by Lewis Carroll, Ebook collection from The UNiversity of Adelaide, Australia, https://ebooks.adelaide.edu.au/c/carroll/lewis/alice/
+* _Alice's Abenteuer im Wunderland_ by Lewis Carroll, German translation by Antonie Zimmermann, Project Gutenberg, http://www.gutenberg.org/ebooks/19778
+* _Alice's Abenteuer im Wunderland_ by Lewis Carroll, German translation by Antonie Zimmermann, Wikisource,  https://de.wikisource.org/wiki/Alice_im_Wunderland
+* _Alice's Adventures Under Ground_ by Lewis Carroll, information on the English original manuscript, The British Library, http://www.bl.uk/onlinegallery/ttp/alice/accessible/introduction.html
 
 # Credits to
 
