@@ -27,11 +27,10 @@ even if you are too late. Have fun...
 
 # Legal
 
-* The White Rabbit being part of the background image is work from [John Tenniel](https://en.wikipedia.org/wiki/John_Tenniel).
-* John Tenniel illustrated early editions of [Lewis Carroll](https://en.wikipedia.org/wiki/Lewis_Carroll)'s "Alice
-in Wonderland" back in 19th century.
-
 * Mind that works of John Tenniel and Lewis Carroll are in the public domain yet!
+    * The White Rabbit being part of the background image is work from [John Tenniel](https://en.wikipedia.org/wiki/John_Tenniel).
+    * John Tenniel illustrated early editions of [Lewis Carroll](https://en.wikipedia.org/wiki/Lewis_Carroll)'s "Alice
+in Wonderland" back in 19th century.
 * Roboto Condensed font licensed under Apache License, version 2.0
 * All other portions of this Pebble watchface are MIT licensed.
 
