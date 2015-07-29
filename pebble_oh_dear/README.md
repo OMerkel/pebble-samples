@@ -31,8 +31,9 @@ even if you are too late. Have fun...
 * John Tenniel illustrated early editions of [Lewis Carroll](https://en.wikipedia.org/wiki/Lewis_Carroll)'s "Alice
 in Wonderland" back in 19th century.
 
-Mind that works of John Tenniel and Lewis Carroll are in the public domain yet!
-All other portions of this Pebble watchface are MIT licensed.
+* Mind that works of John Tenniel and Lewis Carroll are in the public domain yet!
+* Roboto Condensed font licensed under Apache License, version 2.0
+* All other portions of this Pebble watchface are MIT licensed.
 
 See file named LICENSE being part of the repository.
 
