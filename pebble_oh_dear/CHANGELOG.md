@@ -11,3 +11,4 @@
 * Inital version of the watch face.
 * Feature: "Oh dear! Oh dear! I shall be too late!" Just recognized this watch face is displaying time being exactly 5 minutes late.
 * Accelerometer event (shake Pebble a bit) will cause to display additional information on date, including calendar week
+* SDK support of Aplite (Pebble and Pebble Steel) and Basalt (Pebble Time)
