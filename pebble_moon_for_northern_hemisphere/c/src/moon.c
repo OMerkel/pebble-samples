@@ -79,6 +79,15 @@ static void update_proc(Layer *layer, GContext *ctx) {
   time_t now = time(NULL);
   struct tm *t = localtime(&now);
 
+  /*
+  t->tm_mday = 16;
+  t->tm_mon = 8;
+  t->tm_hour = 16;
+  t->tm_min = 0;
+  t->tm_year = 116;
+  now = mktime(t);
+   */
+
   uint32_t tmp = now - MOON_OFFSET_EPOCHE;
   tmp %= MOON_CYCLE;
   int8_t i_index = (tmp * NUM_MOON_PHASES) / MOON_CYCLE;
@@ -95,8 +104,8 @@ static void update_proc(Layer *layer, GContext *ctx) {
 
   graphics_context_set_fill_color(ctx, GColorTick);
   graphics_context_set_stroke_color(ctx, GColorTick);
-  for(int i=0; i<24; i+=2) {
-    if((i%6) != 0) {
+  for(int i=0; i<24; i+=1) {
+    if(i != 12) {
       gpath_rotate_to(s_hour_tick, TRIG_MAX_ANGLE * i / 24.0);
       gpath_draw_filled(ctx, s_hour_tick);
       gpath_draw_outline(ctx, s_hour_tick);
@@ -116,28 +125,26 @@ static void update_proc(Layer *layer, GContext *ctx) {
   gpath_draw_outline(ctx, s_hour_arrow);
 #endif /* SHOW_MINUTE_HAND */
 
+//  mode_detail_expiration = now + 10000;
   if (0 < mode_detail_expiration) {
     if (now > mode_detail_expiration) {
       mode_detail_expiration = 0;
+      datebuf[0] = '\0';
       timebuf[0] = '\0';
     }
     else {
-      /*
-      t->tm_mday = 4;
-      t->tm_mon = 2;
-      mktime(t);
-      */
-
-      timebuf[sizeof(timebuf) - 1] = '\0';
-      strftime(timebuf, sizeof(timebuf) - 1, "CW%W, %a,%b %e,%Y", t);
-      if ('9' == timebuf[3]) {
-        ++timebuf[2];
-        timebuf[3] = '0';
+      datebuf[sizeof(datebuf) - 1] = '\0';
+      strftime(datebuf, sizeof(datebuf) - 1, "CW%W, %a,%b %e,%Y", t);
+      if ('9' == datebuf[3]) {
+        ++datebuf[2];
+        datebuf[3] = '0';
       }
       else {
-        ++timebuf[3];
+        ++datebuf[3];
       }
       // graphics_fill_circle(ctx, (GPoint){71, 157}, 4);
+      timebuf[sizeof(timebuf) - 1] = '\0';
+      strftime(timebuf, sizeof(timebuf) - 1, "%R", t);
     }
   }
 }
@@ -169,22 +176,35 @@ static void window_load(Window *window) {
   layer_set_update_proc(bitmap_layer_get_layer(s_moon_layer), update_proc);
   layer_add_child(window_layer, bitmap_layer_get_layer(s_moon_layer));
 
-  s_text_layer = text_layer_create(GRect(0, 0, 144, 28));
-  text_layer_set_background_color(s_text_layer, GColorClear);
-  text_layer_set_text_color(s_text_layer, GColorWhite);
-  text_layer_set_text_alignment(s_text_layer, GTextAlignmentRight);
-  layer_add_child(bitmap_layer_get_layer(s_moon_layer), text_layer_get_layer(s_text_layer));
+  s_date_text_layer = text_layer_create(GRect(0, 0, 144, 28));
+  text_layer_set_background_color(s_date_text_layer, GColorClear);
+  text_layer_set_text_color(s_date_text_layer, GColorWhite);
+  text_layer_set_text_alignment(s_date_text_layer, GTextAlignmentRight);
+  layer_add_child(bitmap_layer_get_layer(s_moon_layer), text_layer_get_layer(s_date_text_layer));
 
-  s_text_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ROBOTO_14));
-  text_layer_set_font(s_text_layer, s_text_font);
+  s_time_text_layer = text_layer_create(GRect(9, 46, 126, 60));
+  text_layer_set_background_color(s_time_text_layer, GColorClear);
+  text_layer_set_text_color(s_time_text_layer, GColorWhite);
+  text_layer_set_text_alignment(s_time_text_layer, GTextAlignmentCenter);
+  layer_add_child(bitmap_layer_get_layer(s_moon_layer), text_layer_get_layer(s_time_text_layer));
 
+  s_date_text_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ROBOTO_14));
+  text_layer_set_font(s_date_text_layer, s_date_text_font);
+
+  s_time_text_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ROBOTO_56));
+  text_layer_set_font(s_time_text_layer, s_time_text_font);
+
+  datebuf[0] = '\0';
+  text_layer_set_text(s_date_text_layer, datebuf);
   timebuf[0] = '\0';
-  text_layer_set_text(s_text_layer, timebuf);
+  text_layer_set_text(s_time_text_layer, timebuf);
 }
 
 static void window_unload(Window *window) {
-  fonts_unload_custom_font(s_text_font);
-  text_layer_destroy(s_text_layer);
+  fonts_unload_custom_font(s_time_text_font);
+  fonts_unload_custom_font(s_date_text_font);
+  text_layer_destroy(s_time_text_layer);
+  text_layer_destroy(s_date_text_layer);
   bitmap_layer_destroy(s_moon_layer);
   gpath_destroy(s_hour_arrow);
   gpath_destroy(s_hour_tick);

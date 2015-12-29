@@ -58,10 +58,10 @@
 
 static const GPathInfo HOUR_TICK_POINTS = {
   4, (GPoint []){
-    {2, -76},
-    {-2, -76},
-    {-2, -80},
-    {2, -80},
+    {2, -70},
+    {-2, -70},
+    {-2, -74},
+    {2, -74},
   }
 };
 
@@ -79,7 +79,7 @@ static const GPathInfo HOUR_HAND_POINTS = {
 #define MOON_CYCLE 2551392
 
 // reasonable offset for start of epoche
-#define MOON_OFFSET_EPOCHE 531200
+#define MOON_OFFSET_EPOCHE 610000
 
 #define TIMEOUT_TEN_SECONDS 10
 
@@ -87,11 +87,14 @@ static time_t mode_detail_expiration = 0;
 
 static Window *s_my_window;
 static BitmapLayer *s_moon_layer;
-static TextLayer *s_text_layer;
-static GFont s_text_font;
+static TextLayer *s_date_text_layer;
+static TextLayer *s_time_text_layer;
+static GFont s_date_text_font;
+static GFont s_time_text_font;
 static GPath *s_hour_arrow;
 static GPath *s_hour_tick;
-static char timebuf[64];
+static char datebuf[64];
+static char timebuf[16];
 
 #if defined(GColorSunsetOrange)
   #define GColorHand GColorSunsetOrange
