@@ -4,7 +4,7 @@ Pebble Moon for Northern Hemisphere
 ![Marketing Banner](res/moon720x320.png)
 
 A sample project for the Pebble Smart Watch
-using [pebble sdk 3.0](https://developer.getpebble.com/sdk)
+using [pebble sdk 3.8.2](https://developer.getpebble.com/sdk)
 
 * Moon for Northern Hemisphere is a watchface derived from [Decelerate Northern Hemisphere](https://github.com/OMerkel/pebble-samples/tree/master/pebble_decelerate_northern_hemisphere) watchface
 * Main display is showing the current Moon Phase nearly in full screen
@@ -88,7 +88,7 @@ _Anyway the Moon's crescent always points towards the sun._
 
 See file named LICENSE being part of the repository.
 
-Copyright (c) 2015
+Copyright (c) 2016
 
 * __@AUTHOR__ Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de.
 

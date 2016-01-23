@@ -15,7 +15,7 @@
  * displayed for a specific while. On timeout the display toggles back to
  * normal view.
  *
- * Copyright (c), 2015
+ * Copyright (c), 2016
  *
  * @AUTHOR Oliver Merkel, merkel(dot)oliver(at)web(dot)de.
  * 

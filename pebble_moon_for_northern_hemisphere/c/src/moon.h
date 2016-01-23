@@ -3,7 +3,7 @@
  *
  * Header declaration for Moon for Northern Hemisphere watchface.
  *
- * Copyright (c), 2015
+ * Copyright (c), 2016
  *
  * @AUTHOR Oliver Merkel, merkel(dot)oliver(at)web(dot)de.
  * 
@@ -79,7 +79,7 @@ static const GPathInfo HOUR_HAND_POINTS = {
 #define MOON_CYCLE 2551392
 
 // reasonable offset for start of epoche
-#define MOON_OFFSET_EPOCHE 610000
+#define MOON_OFFSET_EPOCHE (507400)
 
 #define TIMEOUT_TEN_SECONDS 10
 
