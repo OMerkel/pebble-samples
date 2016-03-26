@@ -75,11 +75,11 @@ static const GPathInfo HOUR_HAND_POINTS = {
 
 #define NUM_MOON_PHASES 16
 
-// 2551392 = 2953 * 24 * 36 = moon cycle is period of synodic month = 29.53 days
+// 2551392 sec = 2953 * 24 * 36 sec = moon cycle (in sec) is period of synodic month = 29.53 days
 #define MOON_CYCLE 2551392
 
-// reasonable offset for start of epoche
-#define MOON_OFFSET_EPOCHE (507400)
+// reasonable offset (in sec) for start of epoche
+#define MOON_OFFSET_EPOCHE (638000)
 
 #define TIMEOUT_TEN_SECONDS 10
 
@@ -96,11 +96,11 @@ static GPath *s_hour_tick;
 static char datebuf[64];
 static char timebuf[16];
 
-#if defined(GColorSunsetOrange)
-  #define GColorHand GColorSunsetOrange
+#if defined(GColorOrange)
+  #define GColorHand GColorOrange
 #else
   #define GColorHand GColorWhite
-#endif /* GColorSunsetOrange */
+#endif /* GColorOrange */
 
 #if defined(GColorYellow)
   #define GColorTick GColorYellow

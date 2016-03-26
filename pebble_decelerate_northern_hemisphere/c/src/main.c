@@ -12,7 +12,7 @@
  * Unix Time (overflow on Jan 19th, 2038 03:14:07 GMT) at least as
  * implemented here.
  *
- * Copyright (c), 2015
+ * Copyright (c), 2016
  *
  * @AUTHOR Oliver Merkel, merkel(dot)oliver(at)web(dot)de.
  * 

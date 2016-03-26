@@ -117,7 +117,7 @@ static const GPathInfo HOUR_HAND_POINTS = {
 #define MOON_CYCLE 2551392
 
 // reasonable offset for start of epoche
-#define MOON_OFFSET_EPOCHE (507400)
+#define MOON_OFFSET_EPOCHE (638000)
 
 static const int MOON_ID[] = {
   RESOURCE_ID_IMAGE_MOON_0,

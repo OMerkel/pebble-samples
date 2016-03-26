@@ -4,6 +4,7 @@
         ""
     ],
     "companyName": "merkel.oliver@web.de",
+    "enableMultiJS": true,
     "longName": "Moon for Northern Hemisphere",
     "projectType": "native",
     "resources": {
@@ -115,7 +116,7 @@
         "basalt"
     ],
     "uuid": "7615efae-aef6-4958-97fa-524e97f232b9",
-    "versionLabel": "1.2",
+    "versionLabel": "1.3",
     "watchapp": {
         "watchface": true
     }

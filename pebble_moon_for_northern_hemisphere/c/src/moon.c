@@ -76,14 +76,20 @@ static void update_proc(Layer *layer, GContext *ctx) {
   graphics_draw_circle(ctx, (GPoint){72, 157}, 4);
 #endif
 
+  /*
+   * time_t time (time_t* timer);
+   *
+   * The value returned generally represents the number of seconds
+   * since 00:00 hours, Jan 1, 1970 UTC (i.e., the current unix timestamp).
+   */
   time_t now = time(NULL);
   struct tm *t = localtime(&now);
 
   /*
-  t->tm_mday = 16;
-  t->tm_mon = 8;
-  t->tm_hour = 16;
-  t->tm_min = 0;
+  t->tm_mday = 24;
+  t->tm_mon = 0;
+  t->tm_hour = 22;
+  t->tm_min = 30;
   t->tm_year = 116;
   now = mktime(t);
    */
@@ -125,7 +131,7 @@ static void update_proc(Layer *layer, GContext *ctx) {
   gpath_draw_outline(ctx, s_hour_arrow);
 #endif /* SHOW_MINUTE_HAND */
 
-//  mode_detail_expiration = now + 10000;
+// mode_detail_expiration = now + 10000;
   if (0 < mode_detail_expiration) {
     if (now > mode_detail_expiration) {
       mode_detail_expiration = 0;
